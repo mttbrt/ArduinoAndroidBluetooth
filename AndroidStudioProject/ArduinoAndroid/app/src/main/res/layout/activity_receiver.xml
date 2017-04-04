@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Receiver">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receiver"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/TW_data"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#a81212"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/BTN_disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Disconnect" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Received Data"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/TW_data"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
